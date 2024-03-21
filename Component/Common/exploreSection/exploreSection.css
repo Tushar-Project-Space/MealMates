@@ -1,0 +1,19 @@
+.explore-section {
+  padding-top: 30px;
+}
+.explore-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 360px) {
+  .explore-section {
+    padding-top: 20px; /* Adjust padding as needed */
+  }
+
+  .explore-grid {
+    justify-content: center;
+  }
+}

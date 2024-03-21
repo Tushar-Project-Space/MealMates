@@ -1,0 +1,11 @@
+.delivery-collection{
+    background-color: var(--inactive-color);
+    width: 100%;
+    padding: 40px 0px;
+}
+
+@media only screen and (max-width: 360px) {
+    .delivery-collection {
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+}
